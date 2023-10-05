@@ -1,7 +1,7 @@
 #!/bin/sh
 
-node18Version=node:18.17.1-alpine
-node20Version=node:20.5.1-alpine
+node18Version=node:18.18.0-alpine
+node20Version=node:20.8.0-alpine
 
 docker login
 
