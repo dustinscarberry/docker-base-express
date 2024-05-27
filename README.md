@@ -10,6 +10,10 @@ Base box with nginx and node18
 
 Base box with nginx and node20
 
+### node22
+
+Base box with nginx and node22
+
 ## Usage
 
 ```docker
