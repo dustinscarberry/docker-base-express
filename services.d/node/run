@@ -1,3 +1,4 @@
 #!/command/with-contenv sh
 
-node /usr/src/app/bin/www
+cd /usr/src/app
+node dist/index.js
