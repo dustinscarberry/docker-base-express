@@ -2,7 +2,7 @@
 
 node18Version=node:18.20.4-alpine
 node20Version=node:20.17.0-alpine
-node22Version=node:22.7.0-alpine
+node22Version=node:22.9.0-alpine
 
 docker login
 
