@@ -2,10 +2,6 @@
 
 ## Current variants
 
-### node18
-
-Base box with nginx and node18
-
 ### node20
 
 Base box with nginx and node20
@@ -13,6 +9,10 @@ Base box with nginx and node20
 ### node22
 
 Base box with nginx and node22
+
+### node24
+
+Base box with nginx and node18
 
 ## Usage
 
