@@ -13,5 +13,5 @@ docker push dustinscarberry/express:node20
 docker buildx build --platform linux/amd64 -t dustinscarberry/express:node22 --build-arg NODE_VERSION=$node22Version -f images/Dockerfile .
 docker push dustinscarberry/express:node22
 
-docker buildx build --platform linux/amd64 -t dustinscarberry/express:node18 --build-arg NODE_VERSION=$node24Version -f images/Dockerfile .
+docker buildx build --platform linux/amd64 -t dustinscarberry/express:node24 --build-arg NODE_VERSION=$node24Version -f images/Dockerfile .
 docker push dustinscarberry/express:node24
