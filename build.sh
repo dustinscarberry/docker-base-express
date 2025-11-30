@@ -1,6 +1,6 @@
 #!/bin/sh
 
-node20Version=node:20.19.5-alpine
+node20Version=node:20.19.6-alpine
 node22Version=node:22.21.1-alpine
 node24Version=node:24.11.1-alpine
 
