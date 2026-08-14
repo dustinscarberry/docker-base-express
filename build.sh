@@ -1,16 +1,12 @@
 #!/bin/sh
 
-node20Version=node:20.20.2-alpine
-node22Version=node:22.22.3-alpine
-node24Version=node:24.16.0-alpine
-node26Version=node:26.2.0-alpine
+node22Version=node:22.23.2-alpine
+node24Version=node:24.19.0-alpine
+node26Version=node:26.7.0-alpine
 
 docker login
 
-# build and push base docker images
-docker buildx build --platform linux/amd64 -t dustinscarberry/express:node20 --build-arg NODE_VERSION=$node20Version -f images/Dockerfile .
-docker push dustinscarberry/express:node20
-
+# build / push docker images
 docker buildx build --platform linux/amd64 -t dustinscarberry/express:node22 --build-arg NODE_VERSION=$node22Version -f images/Dockerfile .
 docker push dustinscarberry/express:node22
 
